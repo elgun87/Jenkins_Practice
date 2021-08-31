@@ -1,0 +1,6 @@
+To run all test cases with maven get surefire-plugin from  https://maven.apache.org/surefire/maven-surefire-plugin/examples/jpms.html
+and all your testcases should end with Test like EbaySearchTest.java
+And if you want to run testNg.xml file you need to get look website for documentation
+
+if you want to run as Regression test inside pom xml file need to add id regression.Look pom xml file.
+The on command prompt mvn test -PRegression
